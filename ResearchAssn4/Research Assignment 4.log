@@ -1,0 +1,519 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/aborjon/Desktop/stats2/soc211/Research Assignment 4.log
+  log type:  text
+ opened on:  13 Mar 2024, 09:18:58
+
+Variable      Storage   Display    Value
+    name         type    format    label      Variable label
+-------------------------------------------------------------------------------
+ace11           byte    %10.0g                ACE11
+sc_age_years    byte    %8.0g                 SC_AGE_YEARS
+sc_racer        byte    %8.0g                 SC_RACER
+k2q31a          byte    %10.0g                K2Q31A
+k2q31d          byte    %10.0g                K2Q31D
+k7q04r_r        byte    %10.0g                K7Q04R_R
+sc_race_r       byte    %8.0g                 SC_RACE_R
+addtreat        byte    %10.0g                ADDTREAT
+k2q31b          byte    %10.0g                K2Q31B
+k7q02r_r        byte    %10.0g                K7Q02R_R
+
+-------------------------------------------------------------------------------
+ace11                                                                     ACE11
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [1,2]                         Units: 1
+         Unique values: 2                         Missing .: 0/54,103
+       Unique mv codes: 1                        Missing .*: 2,158/54,103
+
+            Tabulation: Freq.  Value
+                        1,638  1
+                       50,307  2
+                        2,158  .m
+
+-------------------------------------------------------------------------------
+sc_age_years                                                       SC_AGE_YEARS
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,17]                        Units: 1
+         Unique values: 18                        Missing .: 0/54,103
+
+                  Mean:  8.6049
+             Std. dev.: 5.30783
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              2         4         8        14        16
+
+-------------------------------------------------------------------------------
+sc_racer                                                               SC_RACER
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [1,3]                         Units: 1
+         Unique values: 3                         Missing .: 0/54,103
+
+            Tabulation: Freq.  Value
+                       41,337  1
+                        3,710  2
+                        9,056  3
+
+-------------------------------------------------------------------------------
+k2q31a                                                                   K2Q31A
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [1,2]                         Units: 1
+         Unique values: 2                         Missing .: 0/54,103
+       Unique mv codes: 1                        Missing .*: 364/54,103
+
+            Tabulation: Freq.  Value
+                        5,519  1
+                       48,220  2
+                          364  .m
+
+-------------------------------------------------------------------------------
+k2q31d                                                                   K2Q31D
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [1,2]                         Units: 1
+         Unique values: 2                         Missing .: 0/54,103
+       Unique mv codes: 2                        Missing .*: 48,546/54,103
+
+            Tabulation: Freq.  Value
+                        2,936  1
+                        2,621  2
+                       48,220  .l
+                          326  .m
+
+-------------------------------------------------------------------------------
+k7q04r_r                                                               K7Q04R_R
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [1,3]                         Units: 1
+         Unique values: 3                         Missing .: 0/54,103
+       Unique mv codes: 2                        Missing .*: 20,227/54,103
+
+            Tabulation: Freq.  Value
+                       25,908  1
+                        3,642  2
+                        4,326  3
+                          486  .m
+                       19,741  .n
+
+-------------------------------------------------------------------------------
+sc_race_r                                                             SC_RACE_R
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [1,7]                         Units: 1
+         Unique values: 6                         Missing .: 0/54,103
+
+            Tabulation: Freq.  Value
+                       41,337  1
+                        3,710  2
+                          532  3
+                        3,450  4
+                          347  5
+                        4,727  7
+
+-------------------------------------------------------------------------------
+addtreat                                                               ADDTREAT
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [1,2]                         Units: 1
+         Unique values: 2                         Missing .: 0/54,103
+       Unique mv codes: 2                        Missing .*: 48,525/54,103
+
+            Tabulation: Freq.  Value
+                        2,470  1
+                        3,108  2
+                       48,220  .l
+                          305  .m
+
+-------------------------------------------------------------------------------
+k2q31b                                                                   K2Q31B
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [1,2]                         Units: 1
+         Unique values: 2                         Missing .: 0/54,103
+       Unique mv codes: 2                        Missing .*: 48,652/54,103
+
+            Tabulation: Freq.  Value
+                        5,119  1
+                          332  2
+                       48,220  .l
+                          432  .m
+
+-------------------------------------------------------------------------------
+k7q02r_r                                                               K7Q02R_R
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [1,6]                         Units: 1
+         Unique values: 6                         Missing .: 0/54,103
+       Unique mv codes: 2                        Missing .*: 20,188/54,103
+
+            Tabulation: Freq.  Value
+                        8,583  1
+                       12,166  2
+                        6,453  3
+                        3,736  4
+                        2,768  5
+                          209  6
+                          447  .m
+                       19,741  .n
+(20,227 missing values generated)
+(486 real changes made, 486 to missing)
+(19,741 real changes made, 19,741 to missing)
+
+-------------------------------------------------------------------------------
+school_contact                                           Times School Contacted
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: school_contact
+
+                 Range: [1,3]                         Units: 1
+         Unique values: 3                         Missing .: 20,227/54,103
+
+            Tabulation: Freq.   Numeric  Label
+                       25,908         1  None
+                        3,642         2  1 time
+                        4,326         3  2 or more times
+                       20,227         .  
+
+-------------------------------------------------------------------------------
+child_race                                                        Race of Child
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: child_race
+
+                 Range: [1,7]                         Units: 1
+         Unique values: 6                         Missing .: 0/54,103
+
+            Tabulation: Freq.   Numeric  Label
+                       41,337         1  White
+                        3,710         2  Black/AA
+                          532         3  A. Indian/Alaska Nat.
+                        3,450         4  Asian
+                          347         5  Hawaiian/Pac. Islander
+                        4,727         7  2 or more races
+(48,652 missing values generated)
+(432 real changes made, 432 to missing)
+(48,220 real changes made, 48,220 to missing)
+
+-------------------------------------------------------------------------------
+child_adhd                                              Currently have ADD/ADHD
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: child_adhd
+
+                 Range: [1,2]                         Units: 1
+         Unique values: 2                         Missing .: 48,652/54,103
+
+            Tabulation: Freq.   Numeric  Label
+                        5,119         1  Yes
+                          332         2  No
+                       48,652         .  
+
+                |    Currently have
+   Times School |       ADD/ADHD
+      Contacted |       Yes         No |     Total
+----------------+----------------------+----------
+           None |     2,316        198 |     2,514 
+         1 time |       731         55 |       786 
+2 or more times |     1,760         65 |     1,825 
+----------------+----------------------+----------
+          Total |     4,807        318 |     5,125 
+(48,546 missing values generated)
+(326 real changes made, 326 to missing)
+(48,220 real changes made, 48,220 to missing)
+
+-------------------------------------------------------------------------------
+adhd_meds                                            Currently taking ADHD Meds
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: adhd_meds
+
+                 Range: [1,2]                         Units: 1
+         Unique values: 2                         Missing .: 48,546/54,103
+
+            Tabulation: Freq.   Numeric  Label
+                        2,936         1  yes
+                        2,621         2  no
+                       48,546         .  
+
+                | Currently taking ADHD
+   Times School |         Meds
+      Contacted |       yes         no |     Total
+----------------+----------------------+----------
+           None |     1,355      1,227 |     2,582 
+         1 time |       440        354 |       794 
+2 or more times |     1,052        778 |     1,830 
+----------------+----------------------+----------
+          Total |     2,847      2,359 |     5,206 
+(20,188 missing values generated)
+
+-------------------------------------------------------------------------------
+missed_days                                            Days Child Missed School
+-------------------------------------------------------------------------------
+
+                  Type: Numeric (float)
+                 Label: missed_days
+
+                 Range: [1,6]                         Units: 1
+         Unique values: 6                         Missing .: 0/54,103
+       Unique mv codes: 2                        Missing .*: 20,188/54,103
+
+            Tabulation: Freq.   Numeric  Label
+                        8,583         1  No Missed Days
+                       12,166         2  1-3 Days
+                        6,453         3  4-6 Days
+                        3,736         4  7-10 Days
+                        2,768         5  11 or More Days
+                          209         6  Child not Enrolled
+                          447        .m  
+                       19,741        .n  
+(54,103 missing values generated)
+(8,583 real changes made)
+(12,166 real changes made)
+(6,453 real changes made)
+(3,736 real changes made)
+(2,768 real changes made)
+(54,103 missing values generated)
+(25,908 real changes made)
+(3,642 real changes made)
+(4,326 real changes made)
+
+Child's Age |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      1,930        3.57        3.57
+          1 |      2,514        4.65        8.21
+          2 |      4,176        7.72       15.93
+          3 |      3,766        6.96       22.89
+          4 |      3,618        6.69       29.58
+          5 |      3,737        6.91       36.49
+          6 |      2,669        4.93       41.42
+          7 |      2,435        4.50       45.92
+          8 |      2,559        4.73       50.65
+          9 |      2,526        4.67       55.32
+         10 |      2,600        4.81       60.13
+         11 |      2,545        4.70       64.83
+         12 |      2,625        4.85       69.68
+         13 |      2,787        5.15       74.83
+         14 |      3,011        5.57       80.40
+         15 |      3,341        6.18       86.57
+         16 |      3,518        6.50       93.08
+         17 |      3,746        6.92      100.00
+------------+-----------------------------------
+      Total |     54,103      100.00
+(54,103 missing values generated)
+(1,930 real changes made)
+(3,737 real changes made)
+(2,545 real changes made)
+
+                     |           Child's Age
+        Age of Child |         0          5         11 |     Total
+---------------------+---------------------------------+----------
+less than school age |     1,930          0          0 |     1,930 
+  early school years |         0      3,737          0 |     3,737 
+    older school kid |         0          0      2,545 |     2,545 
+---------------------+---------------------------------+----------
+               Total |     1,930      3,737      2,545 |     8,212 
+(54,103 missing values generated)
+(1,638 real changes made)
+(50,307 real changes made)
+
+             | mistreat adhd_m~s child~ce child~ge
+-------------+------------------------------------
+    mistreat |   1.0000 
+   adhd_meds |  -0.0472   1.0000 
+  child_race |   0.0080   0.0606   1.0000 
+   child_age |   0.1118  -0.2264  -0.0133   1.0000 
+
+Mistreatme |
+ nt due to | Mistr. for Diagnosis
+ Diagnosis |         1          2 |     Total
+-----------+----------------------+----------
+         0 |         0     50,307 |    50,307 
+         1 |     1,638          0 |     1,638 
+-----------+----------------------+----------
+     Total |     1,638     50,307 |    51,945 
+note: 5.child_race#1b.adhd_meds identifies no observations in the sample.
+
+      Source |       SS           df       MS      Number of obs   =       566
+-------------+----------------------------------   F(12, 553)      =      2.61
+       Model |  3.52614274        12  .293845229   Prob > F        =    0.0022
+    Residual |  62.2689103       553  .112602008   R-squared       =    0.0536
+-------------+----------------------------------   Adj R-squared   =    0.0331
+       Total |   65.795053       565  .116451421   Root MSE        =    .33556
+
+------------------------------------------------------------------------------
+    mistreat | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+   child_age |
+early sch..  |  -.1901632   .1735783    -1.10   0.274    -.5311167    .1507903
+older sch..  |  -.0872448   .1730224    -0.50   0.614    -.4271063    .2526166
+             |
+  child_race#|
+   adhd_meds |
+   White#no  |  -.0392141   .0324491    -1.21   0.227    -.1029526    .0245244
+   Black/AA #|
+        yes  |   .0809641   .0785569     1.03   0.303    -.0733424    .2352706
+Black/AA#no  |   .1062829   .0851835     1.25   0.213    -.0610398    .2736056
+A. Indian.. #|
+        yes  |  -.1258972   .1950509    -0.65   0.519    -.5090284     .257234
+A. Indian.. #|
+         no  |  -.1087441    .169573    -0.64   0.522    -.4418301    .2243419
+  Asian#yes  |   .3569498   .1387236     2.57   0.010     .0844601    .6294394
+   Asian#no  |  -.1196497     .12323    -0.97   0.332    -.3617059    .1224065
+Hawaiian/.. #|
+        yes  |          0  (empty)
+Hawaiian/.. #|
+         no  |  -.1602033   .3363119    -0.48   0.634    -.8208084    .5004018
+2 or more.. #|
+        yes  |   .1230398   .0733269     1.68   0.094    -.0209936    .2670732
+2 or more.. #|
+         no  |   .0627884   .0598991     1.05   0.295    -.0548691     .180446
+             |
+       _cons |   .2474481   .1740722     1.42   0.156    -.0944755    .5893717
+------------------------------------------------------------------------------
+(est1 stored)
+
+      Source |       SS           df       MS      Number of obs   =       566
+-------------+----------------------------------   F(8, 557)       =      3.14
+       Model |  2.83620325         8  .354525406   Prob > F        =    0.0018
+    Residual |  62.9588498       557  .113032046   R-squared       =    0.0431
+-------------+----------------------------------   Adj R-squared   =    0.0294
+       Total |   65.795053       565  .116451421   Root MSE        =     .3362
+
+------------------------------------------------------------------------------
+    mistreat | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+   child_age |
+early sch..  |  -.1547074   .1722449    -0.90   0.369    -.4930364    .1836217
+older sch..  |  -.0477919   .1717314    -0.28   0.781    -.3851123    .2895285
+             |
+  child_race |
+   Black/AA  |   .1120281   .0578632     1.94   0.053    -.0016287    .2256849
+A. Indian..  |  -.0923901   .1282059    -0.72   0.471    -.3442163    .1594362
+      Asian  |   .1108451    .092114     1.20   0.229    -.0700881    .2917783
+Hawaiian/..  |  -.1185372   .3371067    -0.35   0.725    -.7806929    .5436186
+2 or more..  |   .1118105    .046468     2.41   0.016     .0205365    .2030845
+             |
+   adhd_meds |
+         no  |  -.0459055   .0291275    -1.58   0.116    -.1031187    .0113076
+       _cons |   .2122346   .1733399     1.22   0.221    -.1282452    .5527144
+------------------------------------------------------------------------------
+(est2 stored)
+
+--------------------------------------------
+                      (1)             (2)   
+                  Model 1         Model 2   
+                     b/se            b/se   
+--------------------------------------------
+2.child_age        -0.190          -0.155   
+                  (0.174)         (0.172)   
+3.child_age        -0.087          -0.048   
+                  (0.173)         (0.172)   
+2.child_ra~s        0.106                   
+                  (0.085)                   
+3.child_ra~s       -0.109                   
+                  (0.170)                   
+4.child_ra~s       -0.120                   
+                  (0.123)                   
+5.child_ra~s       -0.160                   
+                  (0.336)                   
+7.child_ra~s        0.063                   
+                  (0.060)                   
+2.child_race                        0.112   
+                                  (0.058)   
+3.child_race                       -0.092   
+                                  (0.128)   
+4.child_race                        0.111   
+                                  (0.092)   
+5.child_race                       -0.119   
+                                  (0.337)   
+7.child_race                        0.112*  
+                                  (0.046)   
+2.adhd_meds                        -0.046   
+                                  (0.029)   
+_cons               0.247           0.212   
+                  (0.174)         (0.173)   
+--------------------------------------------
+R-Squared           0.054           0.043   
+N                 566.000         566.000   
+--------------------------------------------
+option nolabel not allowed
+r(198);
+invalid 'nolabel' 
+r(198);
+option nolabel not allowed
+r(198);
+mistreat invalid
+r(198);
+child_age invalid
+r(198);
+option nolabel not allowed
+r(198);
+command nolabel is unrecognized
+r(199);
+option nolabel not allowed
+r(198);
+varlist not allowed
+r(101);
+previous command was not margins
+r(301);
+
+Variables that uniquely identify margins: _deriv
+i:  operator invalid
+r(198);
+invalid dydx() option;
+mistreat not found in list of covariates
+r(322);
+
+Variables that uniquely identify margins: _deriv
+
+Variables that uniquely identify margins: child_age adhd_meds
+
+Variables that uniquely identify margins: child_age adhd_meds
+
+Variables that uniquely identify margins: child_age adhd_meds
+
+Variables that uniquely identify margins: child_age child_race
+
+Variables that uniquely identify margins: adhd_meds child_age
+
+Variables that uniquely identify margins: adhd_meds child_age
+
+Variables that uniquely identify margins: adhd_meds
+
+Variables that uniquely identify margins: child_age
+
+Variables that uniquely identify margins: adhd_meds
+(48,546 missing values generated)
+variable yhat3 not found
+r(111);
+(48,546 missing values generated)
+variable yhat already defined
+r(110);
+(48,546 missing values generated)

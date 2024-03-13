@@ -1,0 +1,169 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/aborjon/Desktop/stats2/GitHub/Graduate-Statistics-and-Data-
+> Science-for-Sociology/week8/w8lesson_interactionlog20200311.log
+  log type:  text
+ opened on:   5 Mar 2024, 10:17:31
+(7 missing values generated)
+age       educ      sex       race      yearsjob  realrinc  age2
+program error:  matching close brace not found
+r(198);
+variable _Irace_1 not found
+r(111);
+variable white already defined
+r(110);
+variable _Irace_1 not found
+r(111);
+variable _Irace_1 not found
+r(111);
+i.race*i.sex      _IracXsex_#_#       (coded as above)
+
+      +---------------------------------------------------------------------------------------------------------------------+
+      |  race      sex   white   _Irace_1   black   _Irace_2   female   _Isex_2   whitex~e   _Ira~1_2   blackx~e   _Ira~2_2 |
+      |---------------------------------------------------------------------------------------------------------------------|
+   1. | white   female       1          1       0          0        1         1          1          1          0          0 |
+   2. | black   female       0          0       1          1        1         1          0          0          1          1 |
+   3. | other   female       0          0       0          0        1         1          0          0          0          0 |
+   4. | white   female       1          1       0          0        1         1          1          1          0          0 |
+   5. | other   female       0          0       0          0        1         1          0          0          0          0 |
+      |---------------------------------------------------------------------------------------------------------------------|
+   6. | white     male       1          1       0          0        0         0          0          0          0          0 |
+   7. | white   female       1          1       0          0        1         1          1          1          0          0 |
+   8. | white   female       1          1       0          0        1         1          1          1          0          0 |
+   9. | white   female       1          1       0          0        1         1          1          1          0          0 |
+  10. | white   female       1          1       0          0        1         1          1          1          0          0 |
+      |---------------------------------------------------------------------------------------------------------------------|
+  11. | black   female       0          0       1          1        1         1          0          0          1          1 |
+  12. | black     male       0          0       1          1        0         0          0          0          0          0 |
+      +---------------------------------------------------------------------------------------------------------------------+
+variable white already defined
+r(110);
+
+--------------------------------------------
+                      (1)             (2)   
+                  Model 1         Model 2   
+                b/se/N/r2       b/se/N/r2   
+--------------------------------------------
+Black              -7,546***      -15,434***
+                  (2,032)         (3,170)   
+                                            
+                                            
+Other              -7,802***       -9,434***
+                  (2,308)         (3,163)   
+                                            
+                                            
+Female             -9,999***      -12,534***
+                  (1,492)         (1,757)   
+                                            
+                                            
+Black female                       13,325***
+                                  (4,111)   
+                                            
+                                            
+Other female                        3,291   
+                                  (4,583)   
+                                            
+                                            
+--------------------------------------------
+R2                   0.11            0.12   
+N                   1,358           1,358   
+--------------------------------------------
+
+Variables that uniquely identify margins: race sex
+(1,579 missing values generated)
+variable raceXsex was str10 now str12
+(924 real changes made)
+(126 real changes made)
+(144 real changes made)
+(157 real changes made)
+(228 real changes made)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Value label raceBYsex 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+      Values                                    Labels
+       Range:  [1,6]                     String length:  [10,12]
+           N:  6                 Unique at full length:  yes
+        Gaps:  no                  Unique at length 12:  yes
+  Missing .*:  0                           Null string:  no
+                               Leading/trailing blanks:  no
+                                    Numeric -> numeric:  no
+  Definition
+           1   Black female
+           2   Black male
+           3   other female
+           4   other male
+           5   white female
+           6   white male
+
+   Variables:  raceBYsex
+
+variable realrincln not found
+r(111);
+(985 missing values generated)
+variable _____ not found
+r(111);
+variable realrincln already defined
+r(110);
+
+Variables that uniquely identify margins: race sex
+
+Variables that uniquely identify margins: raceBYsex
+
+--------------------------------------------
+                      (1)             (2)   
+                  Model 1         Model 2   
+                     b/se            b/se   
+--------------------------------------------
+Black               -0.26***        -0.97*  
+                   (0.08)          (0.50)   
+Other               -0.08            0.07   
+                   (0.09)          (0.35)   
+Years of e~n         0.13***         0.13***
+                   (0.01)          (0.01)   
+Black * ed~n                         0.05   
+                                   (0.04)   
+Other * ed~n                        -0.01   
+                                   (0.03)   
+--------------------------------------------
+R2                   0.21            0.21   
+N                   1,357           1,357   
+--------------------------------------------
+
+              Highest year of school completed
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%            4              0
+ 5%            9              0
+10%           11              0       Obs               2,345
+25%           12              0       Sum of wgt.       2,345
+
+50%           14                      Mean           13.73177
+                        Largest       Std. dev.      2.974313
+75%           16             20
+90%           18             20       Variance       8.846537
+95%           18             20       Skewness      -.4889711
+99%           20             20       Kurtosis       4.628267
+(3 missing values generated)
+
+      +-------------------------+
+      | black   educ   Blackx~c |
+      |-------------------------|
+   1. |     0     14          0 |
+   2. |     1      9          9 |
+   3. |     0     11          0 |
+   4. |     0     12          0 |
+   5. |     0     11          0 |
+      |-------------------------|
+   6. |     0     12          0 |
+   7. |     0     12          0 |
+   8. |     0     11          0 |
+   9. |     0     12          0 |
+      +-------------------------+
+
+Variables that uniquely identify margins: educ race
+
+Variables that uniquely identify margins: educ race
+
+Variables that uniquely identify margins: educ race
